@@ -1,0 +1,2 @@
+ALTER TABLE nilai ADD CONSTRAINT fk_mhs FOREIGN KEY (npm) REFERENCES mhs(npm);
+ALTER TABLE nilai ADD CONSTRAINT fk_kmk FOREIGN KEY (kmk) REFERENCES matakuliah(kmk);

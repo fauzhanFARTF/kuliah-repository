@@ -1,0 +1,3 @@
+CREATE TABLE dosen(NIDN CHAR(8) PRIMARY KEY, nama CHAR(30));
+CREATE TABLE kelas (kelas CHAR(8) PRIMARY KEY, gedung CHAR(30));
+CREATE TABLE jadwalajar(NIDN CHAR(8), kelas CHAR(8), hari CHAR(10), jam CHAR(10));

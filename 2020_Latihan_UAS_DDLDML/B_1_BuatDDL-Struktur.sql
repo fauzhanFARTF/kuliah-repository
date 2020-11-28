@@ -1,0 +1,3 @@
+CREATE TABLE mhs(npm CHAR(10) PRIMARY KEY, nama CHAR(30));
+CREATE TABLE matakuliah(kmk CHAR(10) PRIMARY KEY, nama CHAR(30));
+CREATE TABLE nilai (npm CHAR(10), kmk CHAR(10), nilai INTEGER);
