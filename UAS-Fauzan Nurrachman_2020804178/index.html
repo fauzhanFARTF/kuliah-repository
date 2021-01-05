@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Mahasiswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       <h2>Biodata Mahasiswa </h2>
+       <div id="container">
+           <form action="#" method="POST">
+            <table>
+                <body>
+                    <tr>
+                        <td><label for="nim">NIM</label></td>
+                        <td><input type="text" name="nim" id="nim" placeholder="   Nomor Pokok Mahasiswa ..." required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="nama">Nama Lengkap</label></td>
+                        <td><input type="text" name="nama" id="nama"placeholder="  Nama Lengkap ..." required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="tempatlahir">Tempat Lahir</label></td>
+                        <td><input type="text" name="tempatlahir" id="tempat lahir" placeholder="  Tempat Lahir ..." required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="jurusan">Jurusan</label></td>
+                        <td>
+                            <div class="customselect">
+                                <select name="jurusan">
+                                    <option value="">&nbsp &nbsp--pilih--</option>
+                                    <option value= "Sistem Informasi"> &nbsp  Sistem Informasi</option>
+                                    <option value="Teknik Informatika"> &nbsp  Teknik Informatika</option>
+                                    <option value="Teknik Informatika"> &nbsp  Teknik elektro</option>
+                                    <option value="Teknik Informatika"> &nbsp  Akuntansi</option>
+                                </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr><td><button type="submit">Simpan</button></td></tr>
+                </body>
+            </table>
+        </form> 
+       </div>
+       
+   
+</body>
+</html>
