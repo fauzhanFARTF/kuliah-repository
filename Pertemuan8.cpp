@@ -8,6 +8,7 @@ int main(){
     cout << "Nilai x ? "; cin >> x;
     cout << "Nilai y ? "; cin >> y;
     cout << "Nilai z ? "; cin >> z;
+    
     if((x>y)&&(x>z))
     cout << "Bilangan Terbesar Adalah " << x << endl;
 	else if((y>x)&&(y>z))
