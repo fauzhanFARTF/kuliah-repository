@@ -13,6 +13,5 @@ int main(){
         case '4' : cout << "Alat Musik";
         break;
         default : cout << "Anda Salah Masukan Kode ....";
-        break;
     }
 }

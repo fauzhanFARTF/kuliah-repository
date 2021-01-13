@@ -11,7 +11,7 @@ int main(){
     
     if((x>y)&&(x>z))
     cout << "Bilangan Terbesar Adalah " << x << endl;
-	else if((y>x)&&(y>z))
+  	else if((y>x)&&(y>z))
     cout << "Bilangan Terbesar Adalah " << y << endl;
     else
     cout << "Bilangan Terbesar Adalah " << z << endl; 
