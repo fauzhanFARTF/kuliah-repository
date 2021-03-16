@@ -22,7 +22,6 @@
                     <td><label for="alamat">Alamat</label></td>
                     <td><textarea name="alamat" id="alamat" cols="30" rows="10"></textarea></td>
                 </tr>
-                <tr>
                     <td colspan="2"><input type="submit" value ="Daftar"></td>
                 </tr>
             </table>
