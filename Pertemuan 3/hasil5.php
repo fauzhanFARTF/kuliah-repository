@@ -1,7 +1,7 @@
 <html>
     <body>
         <?php 
-            $conn = mysqli_connect("localhost","root","root","5bmalamdb");
+            $conn = mysqli_connect("localhost","root","root","kuliah-5bmalamdb");
             if (mysqli_connect_errno()){
                 echo "Koneksi Gagal".mysqli_connect_error();
             }
