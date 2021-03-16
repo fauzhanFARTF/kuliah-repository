@@ -6,7 +6,8 @@
     <br><br>
         <form action="hasil5.php" method="post">
             <table>
-                <td><label for="NIM">NIM</label></td>
+                <tr>
+                    <td><label for="NIM">NIM</label></td>
                     <td><input type="text" name="NIM" id="NIM"></td>
                 </tr>
                 <tr>
